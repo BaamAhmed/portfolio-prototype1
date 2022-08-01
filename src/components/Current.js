@@ -10,6 +10,7 @@ const Current = ({darkMode}) => {
     
   return (
     <div className='container mx-auto mb-20'>
+      <div id='current' ></div>
         <div className="grid grid-cols-1 mx-5 md:grid-cols-3">
             <div className="col-span-1 md:col-span-2">
               <h1 className={`${headingColor} font-bold text-3xl`} >what i'm upto right now</h1>

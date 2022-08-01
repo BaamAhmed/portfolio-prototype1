@@ -16,6 +16,7 @@ const Technical = ({darkMode}) => {
 
   return (
     <div className='container mx-auto' >
+      <div id="tech"></div>
       <div className="grid grid-cols-1 md:grid-cols-3">
         <div className={`order-2 md:order-1 m-2 mx-5`} >
           <div className={`${primaryBg} rounded-lg p-3`}>

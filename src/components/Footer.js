@@ -1,4 +1,5 @@
 import React from 'react'
+import {HashLink} from 'react-router-hash-link'
 
 const Footer = ({darkMode}) => {
   const footerBg = `${darkMode ? 'bg-white' : 'bg-red-500'}`
@@ -11,7 +12,7 @@ const Footer = ({darkMode}) => {
             <h1 className={`${textColor} text-left font-light text-2xl`} ><span className='font-bold' > Bassam</span>Ahmed</h1>
             
             <p className={`${textColor} text-center`} >Made with <span>❤️</span> by Bassam Ahmed</p>
-            <a href="/" className={`${textColor} text-right font-bold`}>back to top</a>
+            <HashLink to="/#home" className={`${textColor} text-right font-bold`}>back to top</HashLink>
         </div>
     </div>
   )

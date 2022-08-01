@@ -7,6 +7,7 @@ const Jumbotron = ({darkMode}) => {
     // const primaryHex = `${darkMode ? '#ededed' : '#ef7777'}`
   return (
     <div style={{height: 600}} className='mb-10 md:mb-0 flex flex-col justify-center px-3 md:px-12'>
+        <div id="home"></div>
         <div className='container mx-auto grid grid-cols-1 md:grid-cols-2'>
             <div className="mt-20 md:mt-0 order-2 md:order-1 flex flex-col justify-center" >
                 <h3 className={`text-2xl font-medium ${secondaryColor}`} >Hello there!</h3>

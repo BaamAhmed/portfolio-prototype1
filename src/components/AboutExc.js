@@ -11,6 +11,7 @@ const AboutExc = ({darkMode, x, y}) => {
 
     return (
     <div className="container mx-auto px-5 md:px-0 mb-20">
+        <div id='about' ></div>
         <div className="text-white grid grid-cols-1 md:grid-cols-3" >
             <div className=' col-span-1 flex flex-col md:col-span-2 mb-7 order-2 md:order-1' >
                 {/* this is the text */}

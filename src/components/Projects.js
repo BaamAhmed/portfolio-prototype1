@@ -8,6 +8,7 @@ const Projects = ({darkMode}) => {
 
   return (
     <div className="container mx-auto text-right mb-20" >
+      <div id="projects"></div>
       <div className=" grid grid-cols-1 md:grid-cols-3">
         <div className='order-2 md:order-1 col-span-1 md:col-span-2 mx-3 md:mr-4'>
           <div className=" flex flex-wrap text-left">
