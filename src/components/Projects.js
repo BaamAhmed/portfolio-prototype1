@@ -1,5 +1,5 @@
 import ProjectCard from './subcomponents/ProjectCard'
-
+//random comment
 const Projects = ({darkMode}) => {
   const headingColor = `${darkMode ? 'text-white' : 'text-red-500'}`
   const textColor = `${darkMode ? 'text-white' : 'text-black font-normal'}`
